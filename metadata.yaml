@@ -1,0 +1,18 @@
+composer:
+  last: Reinhardt
+  first: Johann Georg
+title: Sonata
+genre: instrumental
+scoring: 2 vl (solo), 2 vl (ripieno), bc
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Dl
+    shelfmark: Mus.2793-O-1
+    date: 1720–1755
+    rism: 212003069
+    url: https://digital.slub-dresden.de/ppn314970908
+    license: public domain
+    principal: true
+imslp:
+parts:
