@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "bc")
+#(define option-instrument-name (markup #:center-column ("vl 2" "conc")))
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,10 +12,9 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "Basso" "continuo" }
-          \IBassoContinuo
+          \set Staff.instrumentName = \markup \center-column { "Violino II" "concertanto" }
+          \IViolinoSoloII
         }
-        \new FiguredBass { \IBassFigures }
       >>
     }
   }
@@ -24,8 +23,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \IIBassoContinuo }
-        \new FiguredBass { \IIBassFigures }
+        \new Staff { \IIViolinoSoloII }
       >>
     }
   }
@@ -34,8 +32,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \IIIBassoContinuo }
-        \new FiguredBass { \IIIBassFigures }
+        \new Staff { \IIIViolinoSoloII }
       >>
     }
   }
@@ -44,8 +41,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \IVBassoContinuo }
-        \new FiguredBass { \IVBassFigures }
+        \new Staff { \IVViolinoSoloII }
       >>
     }
   }

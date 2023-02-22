@@ -16,3 +16,7 @@ sources:
     principal: true
 imslp:
 parts:
+  vl1_conc: Violino concertanto I
+  vl2_conc: Violino concertanto II
+  vl1_rip: Violino ripieno I
+  vl2_rip: Violino ripieno II

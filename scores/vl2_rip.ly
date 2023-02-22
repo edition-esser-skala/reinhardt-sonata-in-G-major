@@ -1,21 +1,20 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "bc")
+#(define option-instrument-name (markup #:center-column ("vl 2" "rip")))
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
     \section "1" "Adagio"
     \addTocEntry
-    \paper { indent = 2\cm }
+    \paper { indent = 2\cm systems-per-page = #6 }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "Basso" "continuo" }
-          \IBassoContinuo
+          \set Staff.instrumentName = \markup \center-column { "Violino II" "ripieno" }
+          \IViolinoRipII
         }
-        \new FiguredBass { \IBassFigures }
       >>
     }
   }
@@ -24,18 +23,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \IIBassoContinuo }
-        \new FiguredBass { \IIBassFigures }
+        \new Staff { \IIViolinoRipII }
       >>
     }
   }
   \bookpart {
     \section "3" "Adagio"
     \addTocEntry
+    \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \IIIBassoContinuo }
-        \new FiguredBass { \IIIBassFigures }
+        \new Staff { \IIIViolinoRipII }
       >>
     }
   }
@@ -44,8 +42,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \IVBassoContinuo }
-        \new FiguredBass { \IVBassFigures }
+        \new Staff { \IVViolinoRipII }
       >>
     }
   }
