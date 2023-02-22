@@ -66,8 +66,50 @@
   %     \midi { \tempo 4 = 65 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2" "Allegro"
+  %   \addTocEntry
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = \markup \center-column { "vl" "conc" }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \IIViolinoSoloI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \IIViolinoSoloII
+  %           }
+  %         >>
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = \markup \center-column { "vl" "rip" }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \IIViolinoRipI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \IIViolinoRipII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \IIBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \IIBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 105 }
+  %   }
+  % }
   \bookpart {
-    \section "2" "Allegro"
+    \section "3" "Adagio"
     \addTocEntry
     \score {
       <<
@@ -76,22 +118,22 @@
             \set GrandStaff.instrumentName = \markup \center-column { "vl" "conc" }
             \new Staff {
               \set Staff.instrumentName = "1"
-              \IIViolinoSoloI
+              \IIIViolinoSoloI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \IIViolinoSoloII
+              \IIIViolinoSoloII
             }
           >>
           \new GrandStaff <<
             \set GrandStaff.instrumentName = \markup \center-column { "vl" "rip" }
             \new Staff {
               \set Staff.instrumentName = "1"
-              \IIViolinoRipI
+              \IIIViolinoRipI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \IIViolinoRipII
+              \IIIViolinoRipII
             }
           >>
         >>
@@ -99,13 +141,13 @@
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \IIBassoContinuo
+            \IIIBassoContinuo
           }
         >>
-        \new FiguredBass { \IIBassFigures }
+        \new FiguredBass { \IIIBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 105 }
+      \midi { \tempo 4 = 75 }
     }
   }
 }

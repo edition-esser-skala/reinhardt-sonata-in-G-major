@@ -150,3 +150,40 @@ IIViolinoRipI = {
     g4 r r2\fermata \bar "|." %134 finis
   }
 }
+
+IIIViolinoRipI = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 3/4 \tempoIII
+    fis'4\fE fis r8 r16 fis
+    fis4 fis r
+    fis fis r8 r16 fis
+    e4 e r
+    e e r8 r16 e %5
+    e4 e r
+    dis dis r8 r16 h
+    h4 c h
+    g r r
+    R2.*11 %20
+    a4 a r8 r16 fis
+    e4 e r8 r16 e
+    d4 d r8 r16 d
+    cis4 a g'
+    r a, fis' %25
+    r a, e'
+    a, r r
+    R2.*8 %35
+    fis''4 fis r8 r16 fis
+    fis4 fis r
+    fis fis r8 r16 fis
+    e4 e r
+    e e r8 r16 e %40
+    cis4 cis r8 r16 cis
+    h8 cis ais4. h8
+    h2 r4
+    r a'! g
+    R2. %45
+    r4 e,8 g fis e
+    d2.\fermata \bar "|." %47 finis
+  }
+}

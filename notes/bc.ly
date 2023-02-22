@@ -337,3 +337,107 @@ IIBassFigures = \figuremode {
   r <4 2>4. <6 4>8 \bc <[6 5]>4
   r1 %134 finis
 }
+
+IIIBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key h \minor \time 3/4 \tempoIII
+    h4\fE h r8 r16 h
+    fis'4 fis r
+    h, h r8 r16 h
+    d!4 d r
+    cis cis r8 r16 h %5
+    ais4 ais r
+    a a r8 r16 a
+    g4 a h
+    e g a
+    h2 e,4 %10
+    fis r h,
+    e h' c
+    dis,2 e4~
+    e8 g fis e d cis!
+    d4 e e, %15
+    a'! fis d
+    g c,? d
+    g,2 r4
+    a a' d,
+    g a a, %20
+    d d r8 r16 d
+    cis4 cis r8 r16 cis
+    h4 h r8 r16 h
+    a2 r4
+    a2 r4 %25
+    a2 r4
+    fis fis'8 g a4~
+    a g8 fis g4
+    dis2 r4
+    g2 r4 %30
+    a2 cis,4
+    d!2 r4
+    g, g' g
+    g fis h,
+    e fis fis, %35
+    h h r8 r16 h
+    fis'4 fis r
+    h, h r8 r16 h
+    d!4 d r
+    cis cis r8 r16 h %40
+    ais4 ais r8 r16 ais
+    h4 fis' fis,
+    h2 r4
+    h r r
+    h r r %45
+    h r r
+    h2.\fermata \bar "|." %47 finis
+  }
+}
+
+IIIBassFigures = \figuremode {
+  r2.
+  <_+>
+  <7! _+>
+  <6 4\+>
+  <6 5!>2 r8. <[6 4]>16 %5
+  <7>2.
+  <6 4\+ _!>2 r8 r16 \bo <[4\+ 2]>16
+  <6>4 <6 _!> <_+>
+  r <6> \bc <[_! _]>
+  <_+>2. %10
+  <7 _+>2 \bo <[_!]>4
+  <_+> <6\\> \bc <[6]>
+  <6 5>2 <[_!]>4
+  <6 4\+>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+  <6>4 <7 _+>2 %15
+  \bo <[_! _]>4 <6 5!> \bc <[\t \t]>
+  r <6 5>2
+  r2.
+  <7 _+>
+  <6 5> %20
+  r2 r8. <6>16
+  <7>4 <6>2
+  <7>4 <6>2
+  <7>2.
+  <6 4> %25
+  <5 3>
+  <6>4 \bo <[5!]> \bc <[\t]>
+  <4\+ _!> \bassFigureExtendersOn \bo <4\+ [3]>8 \bc <4\+ [3\!]> \bassFigureExtendersOff <6>4
+  q2.
+  q %30
+  <_+>2 <[6]>4
+  r2.
+  <9 [5]>4 <8 6>2
+  <6 4 2\+>4 <_+> <_!>
+  <6> <_+>2 %35
+  r2.
+  <_+>
+  <7! _+>
+  <6 4\+>
+  <6 5!>2 r8. <[6 4 2]>16 %40
+  <7>4 <6>2
+  r4 \bo <[9 _+]> <8 \t>
+  r <6 4> \bc <[5 3]>
+  r \bo <7! [5]> <6 4>
+  r q \bc <5 [3]> %45
+  r4 <4 2>2
+  <5 [3]>2. %47 finis
+}

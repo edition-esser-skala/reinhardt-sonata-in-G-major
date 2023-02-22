@@ -168,3 +168,57 @@ IIViolinoSoloI = {
     g4 r r2\fermata \bar "|." %134 finis
   }
 }
+
+IIIViolinoSoloI = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 3/4 \tempoIII
+    h''4-!\fE h-! r8 r16 h
+    ais4-! ais-! r
+    a-! a-! r8 r16 a
+    gis4-! gis-! r
+    g g r8 r16 g %5
+    g4 g r
+    fis fis r8 r16 fis
+    e8 g, fis4 dis'
+    e h' c
+    dis,2 e4~ %10
+    e8[ g fis e] d cis16 h
+    gis'4. e8 a4~
+    a4. fis8 g e
+    cis4 e ais
+    h gis2 %15
+    a!8 h c4. d8
+    h a a4. g!8
+    g2.~
+    g4. e8 fis4~
+    fis8 g e4. d8 %20
+    d4 d r8 r16 h
+    h4 a r8 r16 a
+    a4 g r8 r16 g
+    g2 r4
+    fis2 r4 %25
+    e2 r4
+    R2.
+    dis'2 e4
+    fis h, h'~
+    h8 a g fis e d! %30
+    cis!4 \once \tieDashed a'2~
+    a8 g fis e d c
+    h4 e2~
+    e4 d8 cis d4~
+    d8 g cis,4. h8 %35
+    h4 h' r8 r16 h
+    ais4 ais r
+    a a r8 r16 a
+    gis4 gis r
+    g g r8 r16 g %40
+    g4 fis r8 r16 e
+    d8 e cis4. h8
+    h4 g fis
+    R2.
+    r4 g fis %45
+    r e8 g fis e
+    d2.\fermata \bar "|." %47 finis
+  }
+}
