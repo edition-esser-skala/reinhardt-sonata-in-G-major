@@ -222,3 +222,227 @@ IIIViolinoSoloI = {
     d2.\fermata \bar "|." %47 finis
   }
 }
+
+IVViolinoSoloI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/8 \tempoIV
+    g''16\fE d e fis g fis
+    g a h8 a
+    g16 d h'8. g16
+    a8 d,16 e fis g
+    a d, c'8. a16 %5
+    h a g h a g
+    fis cis d e fis e
+    fis g a8 g
+    fis a d
+    cis4 r8 %10
+    cis,16 h cis a h cis
+    d8 fis a
+    h g, r
+    r g fis
+    g g'16 fis g e %15
+    fis4 r8
+    fis16 g a d, e fis
+    g fis e g fis e
+    a8 d, r
+    cis a r %20
+    d16 a fis'8. d16
+    e d cis h a e'
+    fis4 r8
+    fis16 e d cis h fis'
+    g4 r8 %25
+    g16 fis e d cis g'
+    a4 r8
+    a16 g fis e d a'
+    h d, e fis g fis
+    g h, c d e d %30
+    e g, a h c! h
+    c4 r8
+    c4 r8
+    c a' fis
+    c a' fis %35
+    c4-! h8-!~
+    h a4-!
+    g'8 a fis
+    g4 r8
+    h16 a g fis e d %40
+    cis4 r8
+    cis16 ais h cis d cis
+    d4 r8
+    R4.
+    h16 fis gis ais h ais %45
+    h cis d8 cis
+    d h16 cis d cis
+    d e fis8 e
+    d16 cis h cis d h
+    e d cis d e cis %50
+    fis d fis a fis d
+    cis a cis e a e
+    fis d fis a d a
+    h g, h d g d
+    e cis e g cis g %55
+    a fis, a cis fis cis
+    d h d fis h fis
+    g e, g h e h
+    cis a cis e a e
+    fis d, fis a d a %60
+    h g h d g d
+    e g d g c, g'
+    h,32 g' g g c,[ g' g g] d g g g
+    \tuplet 3/2 8 { e16 fis g e[ fis g] e fis g }
+    fis16 a e a d, a' %65
+    cis,32 a' a a d,[ a' a a] e a a a
+    \tuplet 3/2 8 { fis16 g a fis[ g a] fis g a }
+    g h, cis d e d
+    e g, a h cis h
+    cis d cis h a g %70
+    fis cis' d fis, e g
+    fis cis' d fis, e cis'
+    d4 r8
+    R4.
+    e8 a16 g a8 %75
+    fis16 g a8 c,!
+    h4 r8
+    R4.
+    d'8 d, d'~
+    d16 h a h g h %80
+    c8 c, c'~
+    c16 a g a fis a
+    h8 h, h'~
+    h16 g fis g e g
+    a8 a, a'~ %85
+    a16 fis e fis dis fis
+    g e g e a e
+    h' e, h' e, c' e,
+    dis4 r8
+    R4. %90
+    e8 fis dis
+    e4 c8~
+    c a4
+    g8 a fis
+    e4 r8 %95
+    g e' dis
+    e h' c
+    dis,16 e fis8 h,
+    a fis'16 e fis dis
+    e8 c' ais %100
+    h4 r8
+    fis16 e fis g fis e
+    d4 r8
+    R4.*3 %106
+    e16 h cis dis e dis
+    e fis g8 fis
+    e16 h g'8. e16
+    fis8 h,16 cis dis e %110
+    fis h, a'8. fis16
+    g fis e g fis e
+    dis8 h'16 a h8
+    g16 a h8 e,
+    dis4 r8 %115
+    R4.
+    e8 a16 g a8
+    fis16 g a8 d,
+    cis4 r8
+    R4. %120
+    g'16 d h'8. g16
+    a g fis e d a'
+    h8 g, r
+    fis d r
+    g16 fis g a h c %125
+    d4.~
+    d16 e fis gis a h
+    c,4.~
+    c8 h16 a h8~
+    h16 cis dis e fis g %130
+    a4 r8
+    a4 r8
+    a g16 fis g8
+    e fis dis
+    e4 r8 %135
+    R4.*40 %175
+    h8 fis'16 e fis8
+    d16 e fis8 h,
+    ais4 r8
+    R4.
+    h8 e16 d e8 %180
+    cis16 d e8 g,!
+    fis4 r8
+    R4.
+    d'16 a fis'8. d16
+    e d cis h a e' %185
+    fis8 d r
+    cis a r
+    fis'16 d fis d g e
+    a fis a fis h8
+    cis,4 r8 %190
+    R4.*4
+    h'16 h, cis d e d %195
+    e g, a h cis h
+    cis4 r8
+    cis4 r8
+    cis4 g'8~
+    g e4 %200
+    fis8 g e
+    d4 r8
+    fis, g e
+    fis4 r8
+    R4.*4 %208
+    d'16 a h cis d cis
+    d e f8 e %210
+    f16 cis d e f e
+    f g a8 g
+    f16 e d c! h8
+    gis'16 a h8 e,
+    d4 r8 %215
+    c8 d16 c h a
+    h8 e, r
+    R4.
+    h'8 e16 d e8
+    cis16 d e8 g,! %220
+    fis4 r8
+    R4.
+    g'16 e d e c! e
+    f8 f, f'~
+    f16 d c d h d %225
+    e8 e, e'~
+    e16 c h c a c
+    d8 d, d'~
+    d16 h a h g h
+    c8 c, c'~ %230
+    c a' c,
+    h g' h,
+    a fis16 g a h
+    c8 a' c,
+    h g' h, %235
+    a4 c8~
+    c fis4
+    g8 fis16 e d c
+    h8 c a
+    h4 r8 %240
+    g a fis
+    g16 d e fis g fis
+    g a h8 a
+    g16 d h'8. g16
+    a8 d,16 e fis g %245
+    a8 fis16 g a h
+    c8 a fis
+    d16 e fis g a h
+    c4 r8
+    fis16 e fis d e fis %250
+    g fis g e fis g
+    a g a fis g a
+    h4 r8
+    R4.
+    g16 d h'8. g16 %255
+    a g fis e d c
+    h8 a16 h c a
+    h8 a16 h c a
+    h8 c a
+    g h,16 c d8 %260
+    a c4
+    h c8~
+    c d4
+    g, r8\fermata \bar "|." %264 finis
+  }
+}

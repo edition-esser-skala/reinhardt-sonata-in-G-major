@@ -441,3 +441,484 @@ IIIBassFigures = \figuremode {
   r4 <4 2>2
   <5 [3]>2. %47 finis
 }
+
+IVBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/8 \tempoIV
+    g8\fE g' a
+    h d c
+    h4 g8
+    d4 e8
+    fis4 r8 %5
+    g h, cis
+    d4 r8
+    R4.*5 %12
+    g16 d e fis g fis
+    g a h8 a
+    g16 d h'8. g16 %15
+    a8 d,16 e fis g
+    a d, c'8. a16
+    h a g h a g
+    fis4 r8
+    a4 r8 %20
+    d,4 r8
+    a'4 r8
+    d,4 r8
+    d4 r8
+    e4 r8 %25
+    e4 r8
+    fis4 r8
+    fis4 r8
+    g4 fis8
+    e4 d8 %30
+    c!4 h8
+    a4 g8
+    fis fis' e
+    d16 a' h c d c
+    d a h c d c %35
+    d4-! g,8~-!
+    g d4-!
+    g,8 c d
+    g, h'16 a g fis
+    e4 r8 %40
+    e g e
+    fis4 r8
+    h,4 cis8
+    d fis e
+    d4 r8 %45
+    R4.
+    h'16 fis gis ais h ais
+    h cis d8 cis
+    h4 h,8
+    cis4 r8 %50
+    d4 r8
+    a'4 r8
+    d,4 fis8
+    g4 h,8
+    cis4 e8 %55
+    fis4 a,8
+    h4 d8
+    e4 g,8
+    a4 cis8
+    d4 fis,8 %60
+    g4 h'8
+    c! h a
+    g a h
+    c4 cis8
+    d cis h %65
+    a h cis
+    d4 dis8
+    e4 r8
+    cis4 r8
+    a4 cis,8 %70
+    d fis a
+    d, fis a
+    d,4 r8
+    d fis g
+    a4 cis,8 %75
+    d fis d
+    g4 r8
+    g h c
+    d4 c8
+    h g e %80
+    a h c
+    d4 r8
+    g, a h
+    c4 r8
+    fis, g a %85
+    h4 r8
+    e e, fis
+    g4 a8
+    h4 e,8
+    dis4 r8 %90
+    e a, h
+    c4 r8
+    dis4 r8
+    e a, h
+    e16 h cis dis e dis %95
+    e fis g8 fis
+    e16 h g'8. e16
+    fis8 h,16 cis dis e
+    fis h, a'8. fis16
+    g fis e g fis e %100
+    d!4 cis8
+    d h fis'
+    h,4 h'8
+    h4 r8
+    ais4 fis8 %105
+    h h, a'
+    g4 fis8
+    e4 r8
+    e4 r8
+    h4 r8 %110
+    h h h
+    e4 a8
+    h4 dis,8
+    e g a
+    h4 dis,8 %115
+    e gis e
+    a4 cis,8
+    d fis g
+    a4 cis,8
+    d fis d %120
+    g4 r8
+    d'4 r8
+    g,4 r8
+    d4 r8
+    g4 r8 %125
+    fis4 r8
+    gis4 r8
+    a4 r8
+    fis4 g8
+    dis4 r8 %130
+    dis16 fis g a h a
+    h fis g a h a
+    h4 e,8
+    a4 h8
+    e,4 g8 %135
+    dis h' a
+    g4 r8
+    dis4 h8
+    e4 g8
+    fis4 r8 %140
+    cis a' g
+    fis4 r8
+    cis4 a8
+    d4 r8
+    fis4 r8 %145
+    a4 cis,8
+    d4 r8
+    g4 r8
+    fis4 r8
+    fis4 r8 %150
+    fis d g
+    fis d g
+    d d'16 cis h a
+    gis4 r8
+    gis4 r8 %155
+    gis e a
+    gis e a
+    e4 r8
+    gis4 r8
+    a4 g8 %160
+    fis4 r8
+    fis4 r8
+    g4 fis8
+    e4 r8
+    e4 r8 %165
+    fis4 e8
+    dis4 cis8
+    h4 g8
+    a4 fis'8
+    g4 e8 %170
+    fis4 d8
+    e4 fis8
+    g e fis
+    h,4 d8
+    e4 fis8 %175
+    h,4 ais8
+    h d e
+    fis4 ais8
+    h4 h,8
+    e gis e %180
+    a cis a
+    d fis, d
+    g h cis
+    d4 d,8
+    cis4 r8 %185
+    d4 r8
+    a4 r8
+    d4 e8
+    fis4 g8
+    a4 d,8 %190
+    e4 cis8
+    d d' cis
+    h4 a8
+    g4 fis8
+    e4 d8 %195
+    cis4 h8
+    a16 e' fis g a g
+    a e fis g a g
+    a4 cis,8~
+    cis cis4 %200
+    d8 g, a
+    d16 a' h cis d cis
+    d8 g, a
+    d,4 r8
+    R4.*6 %210
+    d16 a h cis d cis
+    d e f8 e
+    d16 a f'8. d16
+    e4 r8
+    e4 r8 %215
+    a,4 d8
+    e4 r8
+    R4.*13 %230
+    d8 d d
+    d d d
+    d d d
+    d d d
+    d d d %235
+    d4 r8
+    d4 r8
+    g4 r8
+    g c, d
+    g,4 r8 %240
+    g' c, d
+    g16^\unisonoE d e fis g fis
+    g a h8 a
+    g16 d h'8. g16
+    a8 d,16 e fis g %245
+    a8 fis16 g a h
+    c8 a fis
+    d16 e fis g a h
+    c4 r8
+    R4.*7 %256
+    g8 d' d,
+    g d' d
+    g, c, d
+    g h,16^\unisonoE c d8 %260
+    a c4
+    h c8~
+    c d4
+    g, r8\fermata \bar "|." %264 finis
+  }
+}
+
+IVBassFigures = \figuremode {
+  r4.
+  <6>8 q q
+  q4.
+  r
+  <6> %5
+  r8 q <6 5>
+  r4.*7 %13
+  r8 <6> q
+  r4. %15
+  <6>
+  <\t>
+  <6>
+  <[6]>
+  <_+> %20
+  r
+  q
+  r
+  <6>
+  <5> %25
+  <6\\>
+  <5\+>
+  <6>
+  r
+  <_!> %30
+  <5>
+  <_!>
+  <6 [5]>
+  <7>
+  \bo <[7]> %35
+  <7>
+  r
+  r
+  r8 \bc <[6]>4
+  r4. %40
+  <6\\>
+  <_+>
+  r4 <6\\>8
+  <6> q <6\\>
+  <6>4. %45
+  r
+  r
+  r8 \bo <[6]> \bc <[6\\]>
+  r4.
+  <6!> %50
+  r
+  <_+>
+  r4 <6>8
+  r4 q8
+  r4 <6\\>8 %55
+  <[5\+]>4 <6 [_+]>8
+  r4 <6>8
+  r4 q8
+  <[_+]>4 <6>8
+  r4 q8 %60
+  r4.
+  r8 \bo <[6]> <7>
+  r <7> \bc <[6]>
+  r4 <6 5>8
+  r \bo <[6]> \bc <[7]> %65
+  <_+> \bo <[7]> \bc <[6]>
+  r4 <6 5>8
+  r4.
+  <6>
+  <_+>4 <6>8 %70
+  r4 <_+>8
+  r4 <[_+]>8
+  r4.
+  r
+  <_+>4 <6>8 %75
+  r4 <[7!]>8
+  r4.
+  r
+  r
+  <6> %80
+  <7>
+  q
+  q
+  q
+  q %85
+  <7 _+>
+  r
+  <6>
+  <_+>
+  <6> %90
+  r8 <6 5> <_+>
+  r4.
+  <7>
+  r8 <6 5> <_+>
+  r4. %95
+  r4 <[6\\]>8
+  r4.
+  <6\\>
+  <\t>
+  <6>8 \bo <[6 _]> <5+ _+>16 \bc <[\t \t]> %100
+  <6>4 <6\\>8
+  <6>4 <[5+] _+>8
+  r4.
+  <2\+>
+  <6 [_+]>4 <[5+ _+]>8 %105
+  <_+>4 <\t>8
+  <6>4 <6\\>8
+  r4.
+  r
+  <_+> %110
+  <7 _+>
+  r4 <6 5>8
+  <_+>4 <6>8
+  r4.
+  <_+>4 <[6]>8 %115
+  <_+>4.
+  q4 <[6]>8
+  r4.
+  <_+>4 <[6]>8
+  r4. %120
+  r
+  r
+  r
+  r
+  r %125
+  <6>
+  <6 5>
+  r
+  <6\\ 5>4 <6>8
+  <6 5>4. %130
+  <\t \t>
+  <7 _+>
+  q
+  <6 5>4 <[7] _+>8
+  r4. %135
+  <6>8 \bo <[_+]> \bc <[\t]>
+  <6>4.
+  q4 <[_+]>8
+  r4.
+  <6!> %140
+  <6>8 <_+>4
+  <6>4.
+  q4 <[_+]>8
+  r4.
+  <6> %145
+  <_+>4 <[6]>8
+  r4.
+  r
+  <6>
+  q %150
+  q
+  <[6]>
+  r
+  <6>
+  \bo <[\t]> %155
+  <6>8 <_+>4
+  <6>8 <_+>4
+  \bc <[_+]>4.
+  <6>
+  <[_!]> %160
+  <6>
+  <\t>
+  r
+  <6>
+  <\t> %165
+  <6\\>
+  <6>
+  <_+>4 <6>8
+  <_+>4 <6!>8
+  r4 <6\\ 5>8 %170
+  <[5+ _+]>4 <6>8
+  r4 <[5+] _+>8
+  r <6\\> <[5+] _+>
+  r4.
+  \bo <[6\\]>4 \bc <[5+] _+>8 %175
+  r4 <[6 _+]>8
+  r4.
+  \bo <[5+] _+>
+  \bc <[_+]>
+  <_+> %180
+  q
+  r
+  r4 <[5]>8
+  r4.
+  <[6]> %185
+  r
+  <_+>
+  r
+  <[6]>
+  <_+> %190
+  r4 <[6]>8
+  r4.
+  <6>
+  q
+  <[6\\]> %195
+  <6 [5]>
+  <7 _+>
+  q
+  <[7] _+>4 \bo <[5 _]>8
+  r <6>4 %200
+  r <[7 _+]>8
+  r4.
+  r8 <6> \bc <[_+ _]>
+  r4.*7 %210
+  <_!>4.
+  \bo <[_!]>8 <6> <6\\>
+  \bc <[_!]>4.
+  <_+>
+  <[7 _+]> %215
+  r
+  <_+>
+  r4.*13 %230
+  <7 5>4.
+  <6 4>
+  <5 3>
+  <7 [5]>
+  <6 4> %235
+  <[5 3]>
+  r
+  r
+  r8 \bo <[6]>4
+  r4. %240
+  r8 \bc <[6]>4
+  r4.
+  r
+  r
+  r %245
+  r
+  r
+  r
+  r
+  r4.*7  %256
+  \bo <[5]>4.
+  r
+  r8 \bc <[6]>4
+  r4. %260
+  r
+  r
+  r
+  r %264 finis
+}
