@@ -23,47 +23,89 @@
 }
 
 \book {
+  % \bookpart {
+  %   \section "1" "Adagio"
+  %   \addTocEntry
+  %   \paper { indent = 3\cm }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = \markup \center-column { "Violino" "concertanto" }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "I"
+  %             \IViolinoSoloI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "II"
+  %             \IViolinoSoloII
+  %           }
+  %         >>
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = \markup \center-column { "Violino" "ripieno" }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "I"
+  %             \IViolinoRipI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "II"
+  %             \IViolinoRipII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Basso" "continuo" }
+  %           % \transpose c c,
+  %           \IBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \IBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 65 }
+  %   }
+  % }
   \bookpart {
-    \section "1" "Adagio"
+    \section "2" "Allegro"
     \addTocEntry
-    \paper { indent = 3\cm }
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \markup \center-column { "Violino" "concertanto" }
+            \set GrandStaff.instrumentName = \markup \center-column { "vl" "conc" }
             \new Staff {
-              \set Staff.instrumentName = "I"
-              \IViolinoSoloI
+              \set Staff.instrumentName = "1"
+              \IIViolinoSoloI
             }
             \new Staff {
-              \set Staff.instrumentName = "II"
-              \IViolinoSoloII
+              \set Staff.instrumentName = "2"
+              \IIViolinoSoloII
             }
           >>
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \markup \center-column { "Violino" "ripieno" }
+            \set GrandStaff.instrumentName = \markup \center-column { "vl" "rip" }
             \new Staff {
-              \set Staff.instrumentName = "I"
-              \IViolinoRipI
+              \set Staff.instrumentName = "1"
+              \IIViolinoRipI
             }
             \new Staff {
-              \set Staff.instrumentName = "II"
-              \IViolinoRipII
+              \set Staff.instrumentName = "2"
+              \IIViolinoRipII
             }
           >>
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Basso" "continuo" }
+            \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \IBassoContinuo
+            \IIBassoContinuo
           }
         >>
-        \new FiguredBass { \IBassFigures }
+        \new FiguredBass { \IIBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 65 }
+      \midi { \tempo 4 = 105 }
     }
   }
 }

@@ -7,6 +7,7 @@
 
 
 tempoI = \tempoMarkup "Adagio"
+tempoII = \tempoMarkup "Allegro"
 
 
 \include "notes/vl1_solo.ly"
